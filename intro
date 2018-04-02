@@ -26,6 +26,7 @@ p {
 <body> 
   <p> Are you too tired to go out and eat out? <br> Don't want to go eat the school lunch either? <br> Then Dolphin Dishes is the thing for you! <p>
     <br><br><br>
-  <p class = "two"> Dolphin Dishes is the answer to anyone who cannot go out of Whitney M Young High School but still want to eat out at places both nearby like McDonalds and Billy Goats or or further away like Pompei and Portillos<p><br>
-  <p class = "two"> <p>
+  <p class = "two"> Dolphin Dishes is the answer to anyone who cannot go out of Whitney M Young High School but still want to eat out at places both nearby like McDonalds and Billy Goats or or further away like Pompei and Portillos. As long as Whitney Young students plan on going to a specific place, you can ask them if they can also buy you food, and you pay them later for your food. <p><br>
+  <p class = "two"> Want to get started? <a href="https://www.w3schools.com/html/">Sign Up Today!</a><p>
+  <p class = "two"> Already have an account? <a href= "https://www.boredbutton.com">Log In!</a><p>
 </body>
