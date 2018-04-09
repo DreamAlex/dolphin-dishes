@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Empty Project</title>
+        <script src="code.js" type="text/javascript" charset="utf-8"></script>        
+        <link href="style.css" rel="stylesheet" type="text/css">
+    <style>
+        h1 {
+            background: ;
+            color: MidnightBlue;
+            font: bold 90px "Abril Fatface", cursive;
+            text-decoration: underline;
+            text-shadow: 0 0 10px #FF4500, 0 0 8px #FF4500;
+}
+    </style>
+    </head>
+    <h1>
+        Dolphin Dishes
+    </h1>
+</html>
