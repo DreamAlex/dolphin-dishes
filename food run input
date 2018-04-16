@@ -1,54 +1,8 @@
 <!DOCTYPE html>
   <head>
     <title> Available Driver </title>
+    <link href = 'wygirlswhocode/doplhin-dishes/foodRunInput.css" rel = 'stylesheet'>
    </head>
- 
- 
-<style>
-body {
-  padding-left: 2%;
-  background-color: #f46842
-}
-
-.mainMenu {
-  background-color: green;
-  padding: 1%;
-  margin-bottom: 2%;
-  width: 50%;
-}
-
-.mainMenu .tab {
-  margin-right: 10px;
-}
-
-.title {
-  background-color: yellow;
-  width: 30%;
-  padding-left: 5%;
-}
-
-.form {
-  background-color: orange;
-  width: 75%;
-  height: 400px;
-  padding: 2%;
-}
-
-.checkboxes {
-  background-color: blue;
-}
-
-.buttons {
-  background-color: white;
-  margin-right: 20px;
-  color: brown;
-  
-.buttons:hover {
-  color: blue;
-  background-color: yellow;
-}
-<style>
-
 
 <div class = 'title'>
   <h1> Available Driver </h1>
