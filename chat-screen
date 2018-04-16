@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header{
+  background-color:#FFBD33;
+  height:180px;
+  border-bottom-style:solid;
+  border-color:#FF5733;
+  border-width:5px;
+}
+#profile{
+  position:absolute;
+  margin:20px;
+  border-style:solid;
+  border-color:#FF5733;
+  border-width:2px;
+}
+#info{
+  position: relative;
+  left:190px;
+  top:20px;
+}
+#header{
+  font-family:sans-serif;
+}
+#division{
+  position:absolute;
+  top: 40px;
+  left: 150px;
+}
+#phone, #email{
+  position:absolute;
+  top:93px;
+  left:150px;
+}
+#email{
+  left:250px;
+}
+
+#messages{
+  position:relative;
+  top:50px;
+}
+.recievemessageText{
+  position:relative;
+  top:40px;
+  left:90px;
+}
+.recieve-message{
+  background-color:#BBBBBB;
+  height:100px;
+  text-align:left;
+}
+.sent-message{
+  background-color:#DDDDDD;
+  height:100px;
+}
+.sentmessageText{
+  position:relative;
+  top:40px;
+  text-align:right;
+  right:90px;
+}
+
+.senderprofile{
+  position:absolute;
+  margin:20px;
+  border-style:solid;
+  border-color:#FF5733;
+  border-width:2px;
+}
+
+.myprofile{
+  position:relative;
+  margin:20px;
+  bottom:30px;
+  left:95%;
+  z-index:10;
+}
+
+.form{
+  position:relative;
+  top:55px;
+  font-family:sans-serif;
+}
+</style>
+</head>
+<body>
+<html>
+  <div id = "header">
+    <img id="profile" src="https://www.buira.org/assets/images/shared/default-profile.png" width = 140px;>
+    <div id="info">
+      <h1 id="name">Name</h1>
+      <h2 id="grade">Grade</h2>
+      <h2 id="division"> Division</h2>
+      <h2 id="contact">Contact: </h2>
+      <h3 id="phone">Phone</h3>
+      <h3 id="email">Email</h3>
+  </div>
+  <div id="messages">
+    <div class="recieve-message">
+      <img class = "senderprofile" src="https://www.buira.org/assets/images/shared/default-profile.png" width = 50px;>
+      <p class ="recievemessageText">Hello</p>
+      </div>
+    <div class="sent-message">
+      <p class ="sentmessageText">Food</p>
+      <img class = "myprofile" src="https://www.buira.org/assets/images/shared/default-profile.png" width = 50px;>
+      </div>
+    </div>
+    <textarea class="form" id="typing" rows=1 style="width:100%;">Type a message...</textarea>
+    <button class="form" onclick="addMessage()" type="button">Send!</button>
+ </body>
+ <script>
+ function addMessage(){
+  var newMessage = document.createElement("div");
+  newMessage.className = "sent-message";
+  var messageText = document.getElementById("typing").value;
+  var textnode = document.createTextNode(messageText);
+  var message = document.createElement("p");
+  message.className = "sentmessageText";
+  message.appendChild(textnode);
+  var profile = document.createElement("img");
+  profile.src = "https://www.buira.org/assets/images/shared/default-profile.png";
+  profile.className = "myprofile";
+  profile.width = "50px";
+  newMessage.appendChild(message);
+  newMessage.appendChild(profile);
+  document.getElementById("messages").appendChild(newMessage);
+  document.getElementById("typing").value = "Type a message...";
+} 
+</script>
+</html>
