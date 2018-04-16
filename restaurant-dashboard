@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+  font-family:sans-serif;
+}
+
+#header{
+  background-color:#FFBD33;
+  height:115px;
+  border-bottom-style:solid;
+  border-color:#FF5733;
+  border-width:5px;
+}
+
+#profile{
+  position:absolute;
+  margin:20px;
+  border-style:solid;
+  border-color:#FF5733;
+  border-width:2px;
+}
+#dishes{
+  position:relative;
+  left:110px;
+  top:35px;
+}
+
+#body{
+  width:90%;
+  position:relative;
+  left:5%;
+}
+
+.resteraunt{
+  background-color:rgb(220,220,220);
+  width:225px;
+  border-style: solid;
+  border-width: 5px;
+}
+
+td{
+  padding-right:15px;
+  padding-bottom:15px;
+}
+</style>
+</head>
+<body>
+<html>
+ <div id = "header">
+    <img id="profile" src="http://www.hsdtaxlaw.com/wp-content/uploads/2016/05/20140806_LogoSupporterPlaceholder.png" width = 70px;>
+      <h1 id="dishes">Dolphin Dishes</h1>
+  </div>
+  <div id = "body">
+    <h2 style="margin-bottom:4px;">I want...</h2>
+    <textarea class="form" id="typing" rows=1 style="width:10%;">Search...</textarea>
+    <h2>Nearby:</h2>
+    <table>
+      <tr>
+        <td>
+    <div class="resteraunt"> 
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpAUfYlJBWi2JV_-oDGMti2dfmATWXNWLtfnRZhYeAC-_NWe8jdg" width=225px height=150px><h4 style="margin:5px 10px;">Resteraunt name</h4>
+      <h5 style="margin:5px 10px;">Address</h5></td>
+          <td>
+    <div class="resteraunt"> 
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFfLCGEnDqp0pWHZjyEwl4nDqMkIKPGZ0lLA4n4pC-EbexNK_hIw" width=225px height=150px><h4 style="margin:5px 10px;">Resteraunt name</h4>
+      <h5 style="margin:5px 10px;">Address</h5></td>
+            <td>
+    <div class="resteraunt"> 
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaJ_byBmWu-9GZz7ED4HVOb5S6T_A_b_hN_31eh32OLXFQhc0XKg" width=225px height=150px><h4 style="margin:5px 10px;">Resteraunt name</h4>
+      <h5 style="margin:5px 10px;">Address</h5></td>
+      </tr>
+      <tr>
+        <td>
+    <div class="resteraunt"> 
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj7LBjKogAV7eQZW5Em1T5ll2iEkKQ4m_zzVStxiRNSVsmm2x5" width=225px height=150px><h4 style="margin:5px 10px;">Resteraunt name</h4>
+      <h5 style="margin:5px 10px;">Address</h5></td>
+          <td>
+    <div class="resteraunt"> 
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQehTPfKwkHAXGsb5MnfnRHQDZorRz0Yl4F88rmCI75M7FjAm7U" width=225px height=150px><h4 style="margin:5px 10px;">Resteraunt name</h4>
+      <h5 style="margin:5px 10px;">Address</h5></td>
+            <td>
+    <div class="resteraunt"> 
+    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2Y47LjTbG7Uf68qcqoSi9JpOUj-DQjNQ-gQqciUHc6xjwtctRBw" width=225px height=150px><h4 style="margin:5px 10px;">Resteraunt name</h4>
+      <h5 style="margin:5px 10px;">Address</h5></td>
+      </tr>
+      </table>
+    </div>
+  </div>
+  </body>
+</html>
