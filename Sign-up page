@@ -1,5 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Empty Project</title>
 body {
   background: linear-gradient(to right, orange, blue);
+}
+h1 {
+  font-size: 40px;
+  text-align:center
+}
+h2 {
+  font-size: 35px;
+  text-align:center
 }
 p {
   font-size: 40px;
@@ -18,11 +31,15 @@ p {
 .clearfix{
   text-align: center
 }
-<p> Dolphin Dishes </p>
+#terms{
+  font-size: 15px;
+}
+</head>
+<h1> Dolphin Dishes </h1>
 <p ID = "slogan"> *insert slogan here* </p>
 <form action="action_page.php" style="border:1px solid #ccc">
   <div class="container">
-    <h1>Sign Up</h1>
+    <h2>Sign Up</h2>
     <p>Please fill in this form to create an account.</p>
     <hr>
 <div id = "sign">
@@ -56,7 +73,7 @@ p {
       <button type="button" class="cancelbtn">Cancel</button>
       <button type="submit" class="signupbtn">Sign Up</button>
     </div>
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    <p id = "terms">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
 
     
   </div>
