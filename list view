@@ -1,1 +1,116 @@
-<html>
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>List View</title>
+  <meta name="description" content="List View">
+  <meta name="author" content="WY GWC">
+
+  <!-- <link rel="stylesheet" href="stylesheet.css"> -->
+  
+  <style>
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #66ccff;
+	}
+
+	li {
+		float: left;
+	}
+
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	body {
+		background-color: #e6e6ff;
+	}
+
+	.title {
+		text-align: center;
+	}
+
+	/* Change the link color to #111 (black) on hover */
+	li a:hover {
+		background-color: #111;
+	}
+
+	.restaurant-info {
+		border-bottom-style: solid;
+		border-width: 2px;
+		border-color: #330066;
+		padding: 20px;
+		margin-bottom: 15px;
+	}
+
+	.button {
+		background-color: #66ccff;
+		border: none;
+		border-radius: 3px;
+		color: #000000;
+		text-decoration: none;
+		padding: 10px 20px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+	}
+  
+  </style>
+
+</head>
+
+<body>
+  <script src="scripts.js"></script>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="profile.asp">Profile</a></li>
+		<li><a href="list_view.asp">List View</a></li>
+		<li><a href="map.asp">Map</a></li>
+		<li><a href="settings.asp">Settings</a></li>
+	</ul>
+	
+	<h1 class="title"> LIST VIEW </h1>
+	
+	<div class="restaurant-info">
+		<h2> Ella's</h2>
+		<h3> Address: 1258 W Jackson Blvd, Chicago, IL 60607</h3>
+		<h3> Phone Number</h3>
+		<h3> Distance</h3>
+		<h3> Menu</h3>
+		<h3> Time</h3>
+		<button type="button" class="button"><a href="order.html"> ORDER </a></button>
+		<button type="button" class="button"><a href="foodrun.html"> I'm Going! </a></button>
+	</div>
+	<div class="restaurant-info">
+		<h2> Dunkin</h2>
+		<h3> Address: 1519 W Madison St, Chicago, IL 60607</h3>
+		<h3> Phone Number</h3>
+		<h3> Distance</h3>
+		<h3> Menu</h3>
+		<h3> Time</h3>
+		<button type="button" class="button"><a href="order.html"> ORDER </a></button>
+		<button type="button" class="button"><a href="foodrun.html"> I'm Going! </a></button>
+	</div>
+	<div class="restaurant-info">
+		<h2> Subway</h2>
+		<h3> Address: 1525 W Madison St, Chicago, IL 60606</h3>
+		<h3> Phone Number</h3>
+		<h3> Distance</h3>
+		<h3> Menu</h3>
+		<h3> Time</h3>
+		<button type="button" class="button"><a href="order.html"> ORDER </a></button>
+		<button type="button" class="button"><a href="foodrun.html"> I'm Going! </a></button>
+	</div>
+  
+</body>
+</html>
